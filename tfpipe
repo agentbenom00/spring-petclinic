@@ -11,7 +11,7 @@
     node {
           sh '/usr/local/bin/terraform init'
           sh '/usr/local/bin/terraform plan -out=plan'
-	  //sh 'terraform apply plan'
+	  sh 'terraform apply plan'
         }
       }
 
